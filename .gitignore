@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+target/
+*.class
+
+# Build outputs
+dist/
+build/
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+
+# Environment
+.env
+.env.local
+
+# Maven
+backend/target/
+
+# Vite
+frontend/dist/
