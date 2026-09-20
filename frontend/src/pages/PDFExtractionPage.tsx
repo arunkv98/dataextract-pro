@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Header } from '../components/Header';
 import { FileUpload } from '../components/FileUpload';
-import { PDFPreview, type HighlightBox } from '../components/PDFPreview';
+import { PDFPreview } from '../components/PDFPreview';
 import { ExtractedData } from '../components/ExtractedData';
 import { MetricsDisplay } from '../components/MetricsDisplay';
 import { compressAndEncrypt, decryptAndDecompress } from '../utils/crypto';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api/extract';
 const SECURE_API_URL = import.meta.env.VITE_SECURE_API_URL || 'http://localhost:8080/api/extract-secure';
 
 interface Metrics {

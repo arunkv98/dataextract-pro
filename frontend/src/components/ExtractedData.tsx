@@ -31,11 +31,9 @@ export function ExtractedData({ data, onHighlight }: ExtractedDataProps) {
       }
 
       const cleanObj: Record<string, any> = {};
-      let hasValue = false;
       for (const [k, v] of Object.entries(val)) {
         if (k.startsWith('_')) continue;
         cleanObj[k] = unwrap(v);
-        if (k === 'amount' || k === 'value' || k === 'rate') hasValue = true;
       }
 
       if (cleanObj.amount !== undefined) return cleanObj.amount;
