@@ -47,7 +47,7 @@ export async function compressAndEncrypt(jsonData: string): Promise<ArrayBuffer>
 
 export async function decryptAndDecompress(buffer: ArrayBuffer): Promise<string> {
   const view = new Uint8Array(buffer);
-  const _version = view[0];
+  // const _version = view[0];
   const iv = view.slice(1, 13);
   const encrypted = view.slice(13);
 
