@@ -125,6 +125,9 @@ export function PDFExtractionPage() {
     setSearchText(text || '');
   };
 
+
+
+  
   const selectedPageData = result?.pages.find(p => p.pageNumber === selectedPage);
 
   return (
