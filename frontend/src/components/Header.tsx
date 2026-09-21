@@ -7,7 +7,7 @@ export function Header() {
         <div className="header-left">
           <a href="/" className="logo">
             <span className="logo-icon">📄</span>
-            <span className="logo-text">DataExtract <span className="logo-bold">Pro</span></span>
+            <span className="logo-text">AI Invoice Extraction</span>
           </a>
         </div>
         <nav className="nav">

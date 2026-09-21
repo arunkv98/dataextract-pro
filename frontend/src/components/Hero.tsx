@@ -6,7 +6,7 @@ export function Hero() {
       <div className="container hero-inner">
         <div className="hero-content">
           <p className="hero-tagline">EXTRACT. PROCESS. GET INSIGHTS.</p>
-          <h1 className="hero-title">Welcome to <span className="text-blue">DataExtract Pro</span></h1>
+          <h1 className="hero-title">Welcome to <span className="text-blue">AI Invoice Extraction</span></h1>
           <p className="hero-desc">Upload your documents and let AI extract the important information — quickly, accurately, and securely.</p>
         </div>
         <div className="hero-visual">
